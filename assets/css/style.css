@@ -24,7 +24,7 @@ body {
     color: #ffffff;
 }
 
- /* Sets value for the h1 element inside class header */
+ /* Sets style for the h1 element inside class header */
 .header h1 {
     /* Display property sets to display the element in inline-level block container */
     display: inline-block;
