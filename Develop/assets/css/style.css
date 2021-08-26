@@ -1,67 +1,92 @@
+/* Universal Selector */
 * {
+    /* Border-box value includes padding and border in the element's width and height */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Type Selector */ 
 body {
+    /* Sets the background colour */
     background-color: #d9dcd6;
 }
 
+/* Class Selector */
 .header {
+    /* Padding property sets the space around the element's content */
     padding: 20px;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Uses hex codes to define color */
     background-color: #2a607c;
+    /* Sets colour of the text */
     color: #ffffff;
 }
 
+ /* Sets value for the h1 element inside class header */
 .header h1 {
+    /* Display property sets to display the element in inline-level block container */
     display: inline-block;
     font-size: 48px;
 }
 
+/* Sets style for Class Selector in h1 element inside the Class header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Sets style for navigation element inside the Class header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
+    /* Float preperty specifies where the element should float in the container */
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+/* Sets style for list element inside the Class header */
 .header li {
+    /* Sets the type of list item marker. None displays nothing */
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Element Selector */
 a {
     color: #ffffff;
+    /* Text-decoration-none removes the underline that appears with the link */
     text-decoration: none;
 }
 
+/* Element Selector */
 p {
     font-size: 16px;
 }
 
+/* Class Selector */
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* Cover value in background-size property covers the enire container with the image */
     background-size: cover;
     background-position: center;
 }
+
+/* Class Selector */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Class Selector */
 .article-style {
+    /* Sets the bottom of the margin value in pixels */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -70,28 +95,36 @@ p {
     color: #ffffff;
 }
 
+/* Sets style for image element inside the Class article-style */
 .article-style img {
     max-height: 200px;
 }
 
+/* Sets style for h2 element inside the Class article-style */
 .article-style h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Class Selector */
 .float-left {
+    /* Value left in float property sets the element to float on the left-side of the container */
     float: left;
     margin-right: 25px;
 }
 
+/* Class Selector */
 .float-right {
+    /* Value right in float property sets the element to float on the right-side of the container */
     float: right;
     margin-left: 25px;
 }
 
+/* Class Selector */
 .benefits {
     margin-right: 20px;
     padding: 20px;
+   /* The value 'both' in clear property pushes the element below both left & right floated elements */
     clear: both;
     float: right;
     width: 20%;
@@ -100,29 +133,36 @@ p {
     background-color: #2589bd;
 }
 
+/* Class Selector */
 .benefit-type {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Sets style for h3 element inside the Class benefit-type */
 .benefit-type h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Sets style for image element inside the Class benefit-type */
 .benefit-type img {
+    /* Sets display of the img element to block */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Element Selector */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Text-align sets the text's position. Center value displays the text in the center */
     text-align: center;
 }
 
-.footer h2 {
+/* Sets style for h4 element inside the Class footer */
+.footer h4{
     font-size: 20px;
 }
